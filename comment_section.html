@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reviews</title>
+    <link rel="stylesheet" href="review_style.css" />
+</head>
+<body>
+
+<!-- HEADER STYLE AND ALL -->
+<div class="header" style="background-color:black; color:white; font-size: 12px;" >
+    <h1>FREE STANDARD SHIPPING ON ORDERS OF $29+  <b style="background-color: red; padding: 5px">CODE: FREEBLK29</b>
+    </h1>
+</div>
+
+<div class="header">
+    <h1> <b>S H E I N</b> </h1>
+</div>
+
+<div class="topnav">
+    <a href="#women">WOMEN</a>
+    <a href="#curve_plus">CURVE + PLUS</a>
+    <a href="#men">MEN</a>
+    <a href="#kids">KIDS</a>
+    <a href="#beauty">BEAUTY</a>
+    <a class="active" href="comment_section.html">REVIEWS</a>
+
+</div>
+
+<!-- F O R M -->
+<div class="container">
+    <!-- action="../login_request.php" -->
+    <form action="request.php" method="post" id="login-form">
+        <div class="row">
+            <h2 style="text-align:center">LOG IN</h2>
+
+            <div class="col">
+                <input type="text" id="uname" name="uname" placeholder="Username" required>
+                <input type="password" id="pswd" name="pswd" placeholder="Password" required>
+                <input type="submit" name="submit" value="Login">
+            </div>
+
+        </div>
+    </form>
+
+</div>
+
+<!---------------------------->
+<img src="CLOTHING.png" class="clothes" alt="clothes">
+<br><hr>
+<h3 style="text-align: center">Leave a review</h3>
+
+<div class="comment-container">
+    <h3 class="comment-container-title">Comments</h3>
+    <div class="comments">
+        <div class="comment flex items-start justify-start">
+            <div class="flex-1">
+                <h3 class="comment-author">Anonymous</h3>
+                <p class="comment-body">Awesome jacket! I love it!</p>
+            </div>
+        </div>
+    </div>
+    <div class="comment comment-new flex items-start justify-start">
+        <div class="flex-1">
+            <h3 class="comment-author">Anonymous</h3>
+            <form action="#" class="comment-form">
+            <textarea
+                    placeholder="Add a comment"
+                    class="comment-input"
+            ></textarea>
+                <input type="submit" class="comment-submit" value="Reply" />
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

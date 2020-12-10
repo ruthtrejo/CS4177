@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.items-start {
+    align-items: start;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.comment-container {
+    border-radius: 8px;
+    border: 1px solid #e2e2e2;
+    margin: 3rem auto;
+    max-width: 600px;
+    min-height: 200px;
+}
+
+.comment-container-title {
+    background: #f8f8f8;
+    border-bottom: 1px solid #ebebeb;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: #2d3748;
+    margin-top: 0;
+    padding: 1rem 2rem;
+}
+
+.comment {
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+}
+
+.comment-new {
+    border-top: 1px solid #ebebeb;
+    margin: 1rem 0;
+    padding-top: 2rem;
+}
+
+.comment-avatar {
+    border-radius: 50%;
+    height: 48px;
+    margin-right: 1rem;
+    width: 48px;
+}
+
+.comment-author {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+.comment-body {
+    color: #4a5568;
+    line-height: 1.4;
+    margin: 0;
+    padding-right: 1rem;
+}
+
+.comment-input {
+    border-radius: 8px;
+    border: 1px solid #dddd;
+    box-sizing: border-box;
+    color: #4a5568;
+    font-size: 1rem;
+    line-height: 1.4;
+    padding: 0.8rem;
+    width: 100%;
+}
+
+.comment-input:focus {
+    border-color: #5c6ac4;
+    outline: none;
+}
+
+.comment-submit {
+    background: #5c6ac4;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    letter-spacing: 0.05rem;
+    margin-top: 0.5rem;
+    padding: 10px 16px;
+    text-transform: uppercase;
+}
+
+.comment-submit:hover,
+.comment-submit:focus {
+    filter: brightness(110%);
+}
+
+/* NAVIGATION BAR */
+.topnav {
+    overflow: hidden;
+    background-color: #f8f8f9;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: white;
+    color: black;
+}
+
+.topnav .search-container {
+    float: right;
+}
+
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+    background: #ccc;
+}
+
+/* Header/Logo Title */
+.header {
+    padding: 5px;
+    text-align: center;
+    background: #eae8ed;
+    color: black;
+    font-size: 20px;
+}
+
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+/* style the container */
+.container {
+    position: relative;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px 0 30px 0;
+}
+
+/* style the submit button */
+input[type=submit] {
+    background-color: #b0aabe;
+    color: white;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #d4d1dc;
+    color: black;
+}
+
+/* style inputs and link buttons */
+input,
+.btn {
+    width: 50%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+    opacity: 1;
+}
+
+/* style the container */
+.container {
+    position: relative;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px 0 30px 0;
+}
+
+.clothes{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* CONTAINER FOR LOGIN */
+/* Two-column layout */
+.col {
+    width: 50%;
+    margin: auto;
+    padding: 0 50px;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
